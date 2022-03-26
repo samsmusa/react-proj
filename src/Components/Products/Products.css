@@ -1,0 +1,33 @@
+.product-card{
+    position: relative;
+    border: 1px solid orange;
+}
+
+.product-card img{
+    height: 300px;
+    width: 200px;
+    margin:5px;
+    border: 1px solid orange;
+}
+.product-info {
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.add-cart{
+    background-color: orange;
+    position: absolute;
+    width: 100%;
+    font-size: 18px;
+    bottom: 0;
+    border: none;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-info span {
+    font-weight: 500;
+    color: rgb(250, 161, 44);
+}
